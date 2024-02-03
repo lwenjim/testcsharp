@@ -1,0 +1,11 @@
+D:\workdata\testcsharp\DemoJson\DemoJson\bin\Debug\DemoJson.exe.config
+D:\workdata\testcsharp\DemoJson\DemoJson\bin\Debug\DemoJson.exe
+D:\workdata\testcsharp\DemoJson\DemoJson\bin\Debug\DemoJson.pdb
+D:\workdata\testcsharp\DemoJson\DemoJson\bin\Debug\Newtonsoft.Json.dll
+D:\workdata\testcsharp\DemoJson\DemoJson\bin\Debug\Newtonsoft.Json.xml
+D:\workdata\testcsharp\DemoJson\DemoJson\obj\Debug\DemoJson.csproj.AssemblyReference.cache
+D:\workdata\testcsharp\DemoJson\DemoJson\obj\Debug\DemoJson.csproj.SuggestedBindingRedirects.cache
+D:\workdata\testcsharp\DemoJson\DemoJson\obj\Debug\DemoJson.csproj.CoreCompileInputs.cache
+D:\workdata\testcsharp\DemoJson\DemoJson\obj\Debug\DemoJson.csproj.CopyComplete
+D:\workdata\testcsharp\DemoJson\DemoJson\obj\Debug\DemoJson.exe
+D:\workdata\testcsharp\DemoJson\DemoJson\obj\Debug\DemoJson.pdb
