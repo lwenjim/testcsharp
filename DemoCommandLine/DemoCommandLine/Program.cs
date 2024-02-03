@@ -1,15 +1,17 @@
 ﻿using System;
 using System.CommandLine;
 using System.Net.Http;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
+// see https://www.baidu.com
+// CTRL + R + G 清除无用包导入
 namespace DemoCommandLine
 {
     internal class Program
     {
         static async Task Main(string[] args)
         {
-            // CTRL + R + G 清除无用包导入
             var rootCommand = new RootCommand
             {
                 new Argument<string>("url","web site url"),
@@ -33,11 +35,27 @@ namespace DemoCommandLine
             {
                 var result = await httpClient.GetStringAsync(uri);
                 httpClient.Dispose();
-                Console.WriteLine(result);
+                string text = result;
+                string pat = @"<a\b[^>]+\bhref=""[^""]*""[^>]*>([\s\S]*?)</a>";
+                var r = new Regex(pat, RegexOptions.IgnoreCase);
+                var m = r.Match(text);
+                while (m.Success)
+                {
+                    for (i = 1; i <= 2; i++)
+                    {
+                        Group g = m.Groups[i];
+                        CaptureCollection cc = g.Captures;
+                        if (cc.Count > 0)
+                        {
+                            Console.WriteLine(Regex.Replace(cc[0].Value, "<[^>]+>", ""));
+                        }
+                    }
+                    m = m.NextMatch();
+                }
             }
             catch (Exception ex)
             {
-                string msg = "Error " + ex.ToString();
+                var msg = "Error " + ex.ToString();
                 httpClient.Dispose();
                 Console.WriteLine(msg);
             }

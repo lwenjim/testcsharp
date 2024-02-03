@@ -1,0 +1,8 @@
+D:\workdata\testcsharp\DemoRegex\DemoRegex\bin\Debug\DemoRegex.exe.config
+D:\workdata\testcsharp\DemoRegex\DemoRegex\bin\Debug\DemoRegex.exe
+D:\workdata\testcsharp\DemoRegex\DemoRegex\bin\Debug\DemoRegex.pdb
+D:\workdata\testcsharp\DemoRegex\DemoRegex\obj\Debug\DemoRegex.csproj.AssemblyReference.cache
+D:\workdata\testcsharp\DemoRegex\DemoRegex\obj\Debug\DemoRegex.csproj.SuggestedBindingRedirects.cache
+D:\workdata\testcsharp\DemoRegex\DemoRegex\obj\Debug\DemoRegex.csproj.CoreCompileInputs.cache
+D:\workdata\testcsharp\DemoRegex\DemoRegex\obj\Debug\DemoRegex.exe
+D:\workdata\testcsharp\DemoRegex\DemoRegex\obj\Debug\DemoRegex.pdb

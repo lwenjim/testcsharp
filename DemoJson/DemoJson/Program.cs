@@ -1,10 +1,8 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
+// see https://www.newtonsoft.com/json/help/html/SerializeObject.htm
 namespace DemoJson
 {
     internal class Program
